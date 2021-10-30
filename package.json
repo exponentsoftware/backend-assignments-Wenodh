@@ -1,0 +1,31 @@
+{
+    "name": "backend-assignments-Wenodh",
+    "version": "1.0.0",
+    "description": "Create APIs to get all, get by id, add, update by id and delete by id a TODO list",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/exponentsoftware/backend-assignments-Wenodh.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/exponentsoftware/backend-assignments-Wenodh/issues"
+    },
+    "homepage": "https://github.com/exponentsoftware/backend-assignments-Wenodh#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "mongoose": "^6.0.9",
+        "mongoose-paginate-v2": "^1.4.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.14"
+    }
+}
